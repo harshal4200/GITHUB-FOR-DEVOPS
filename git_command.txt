@@ -1,0 +1,15 @@
+git status
+clear
+git add .
+git status
+clear
+git status
+git commit -m "add success"
+clear
+git status
+rm Testing.java
+git rm --cached Testing.java
+ls
+git status
+git restore Testing.java
+git status
